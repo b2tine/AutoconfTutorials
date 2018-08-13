@@ -1,13 +1,3 @@
-/* 
- *  Remember to compile try:
- *           1) gcc hi.c -o hi -lX11
- *           2) gcc hi.c -I /usr/include/X11 -L /usr/X11/lib -lX11
- *           3) gcc hi.c -I /where/ever -L /who/knows/where -lX11
- *
- *  Brian Hammond 2/9/96.    Feel free to do with this as you will!
- */
-
-
 /* include the X library headers */
 #include <X11/Xlib.h>
 #include <X11/Xutil.h>
